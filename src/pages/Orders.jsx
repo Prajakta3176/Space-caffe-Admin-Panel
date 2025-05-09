@@ -31,8 +31,8 @@ export default function Orders() {
 
   const updateOrderStatus = async (orderId) => {
     const headers = {
-      id : '6803b60fd97d0d4662e66c8e',
-      authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MDNiNjBmZDk3ZDBkNDY2MmU2NmM4ZSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NTA3MzcwNiwiZXhwIjoxNzQ2MzY5NzA2fQ.NUlQAnSHi17dDXrhOOb76M6U6nC_cih2YsyNYhAWRWw`,
+       id : localStorage.getItem("id"),
+    authorization: `Bearer ${localStorage.getItem("token")}`,
       orderid : orderId
     }
 
