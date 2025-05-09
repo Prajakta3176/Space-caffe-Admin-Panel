@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { FaRegEdit } from "react-icons/fa";
 import { MdOutlineDelete } from "react-icons/md";
-import ParticleLoader from '../components/loaders/Particleloader';
 import Loader from '../components/loaders/Loader';
 
 export default function List() {
