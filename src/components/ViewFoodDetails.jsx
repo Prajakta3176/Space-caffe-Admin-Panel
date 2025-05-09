@@ -6,7 +6,7 @@ import { FaRegEdit } from 'react-icons/fa';
 import { MdOutlineDelete } from 'react-icons/md';
 // import ReviewSection from '../review/ReviewSection';
 import { useNavigate } from 'react-router-dom';
-import ParticleLoader from './loaders/Particleloader';
+
 
 export default function ViewFoodDetails() {
 
