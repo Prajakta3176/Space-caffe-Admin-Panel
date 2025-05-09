@@ -21,7 +21,10 @@ export default function Navbar() {
 
   return (
     <div className='flex justify-between items-center py-4 px-7 h-[70px] w-full relative'>
-      <Link to='/'><img src='' alt='Logo' /></Link>
+       <Link to='/home' className='w-[200px] gap-2 flex'>
+          {/* <img className='w-[50px] h-[50px]' src="/favicon3.png" alt="" /> */}
+          <img className='w-[140px]' src="/logo2.png" alt="" />
+        </Link>
 
       <p className='text-3xl text-amber-500 font-bold text-center'>Admin Panel</p>
 
