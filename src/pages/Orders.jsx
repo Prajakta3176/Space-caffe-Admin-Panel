@@ -85,6 +85,7 @@ export default function Orders() {
           <p><strong>Name:</strong> {order.user?.fullname}</p>
           <p><strong>Email:</strong> {order.user?.email}</p>
           <p><strong>Phone:</strong> {order.user?.number}</p>
+          <p><strong>Address:</strong> {order.user?.address}</p>
         </div>
 
         <div className="mb-4">
